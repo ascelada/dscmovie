@@ -10,7 +10,7 @@ function Navbar() {
         <header>
             <nav className='container'>
                 <div className='dsmovie-nav-content'>
-                    <h1>Shiny Flakes</h1>
+                    <h1>DS Movie</h1>
                     <a href="https://github.com/ascelada" target="_blank" rel="noreferrer">
                         <div className='dsmovie-contact-container'>
                             <GithubIcon />
