@@ -1,5 +1,6 @@
 import './styles.css'
 import 'bootstrap/dist/css/bootstrap.css';
+import { Link } from 'react-router-dom';
 
 function Listing() {
     const movie = {
@@ -35,7 +36,11 @@ function Listing() {
                         <button type="submit" className="btn btn-primary dsmovie-btn">Salvar</button>
                     </div>
                 </form >
-                <button className="btn btn-primary dsmovie-btn mt-3">Cancelar</button>
+                <Link to = '/'>
+                    <button className="btn btn-primary dsmovie-btn mt-3">Cancelar</button>
+
+                </Link>
+
             </div >
         </div >
     );
