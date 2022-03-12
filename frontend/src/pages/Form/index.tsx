@@ -1,4 +1,6 @@
 import './styles.css'
+import 'bootstrap/dist/css/bootstrap.css';
+
 function Listing() {
     const movie = {
 
